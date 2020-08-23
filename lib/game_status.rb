@@ -15,7 +15,7 @@ end
  [2,4,6]#right diagonal
 ]
 def won?(board)
-for each win_combination in 
+for each win_combination in
 WIN_COMBINATIONS
  win_index_1 = win_combination[0]
  win_index_2 = win_combination[1]
@@ -26,7 +26,7 @@ WIN_COMBINATIONS
  position_3 = board[win_index_3]
   if position_1 == "X" && position_2 == "X" && position_3 == "X"
    return win_combination
- else 
+ else
    false
   end
 end
