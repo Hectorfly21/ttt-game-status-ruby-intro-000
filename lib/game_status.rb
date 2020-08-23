@@ -4,3 +4,5 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
+class WIN_COMBINATIONS
+end
