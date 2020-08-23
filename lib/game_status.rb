@@ -5,7 +5,7 @@ end
 
 # Define your WIN_COMBINATIONS constant
 def won?(board)
-  
+
   WIN_COMBINATIONS = [
  [0,1,2],#top row
  [3,4,5],#middle row
