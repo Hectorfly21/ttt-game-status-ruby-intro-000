@@ -12,7 +12,7 @@ end
  [1,4,7],#middle column
  [2,5,8],#right column
  [0,4,8],#left diagonal
- [6,4,2]#right diagonal
+ [2,4,6]#right diagonal
 ]
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
@@ -26,7 +26,7 @@ def won?(board)
  position_3 = board[win_index_3]
   if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
  return win_combination
- else
-   false
-  end
+   end
+ end
+ return false
 end
