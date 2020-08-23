@@ -10,4 +10,5 @@ def WIN_COMBINATIONS(constant)
  [3,4,5],
  [6,7,8],
 ]
+WIN_COMBINATIONS.replace
 end
